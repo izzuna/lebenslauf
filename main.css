@@ -186,3 +186,9 @@ grid-template-columns: 1fr 3fr 1fr;
         margin-top: 40px;
     }
 }
+
+@media  screen and (max-width: 600px) {
+    .main-daten-profile img{
+        height: 200px;
+    }
+}
