@@ -214,6 +214,9 @@ grid-template-columns: 1fr 3fr 1fr;
     .main-daten-info h2, .main-daten-info > div{
         margin-right: -10px;
     }
+    .main-exchange-container{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media  screen and (max-width: 500px){
@@ -234,9 +237,7 @@ grid-template-columns: 1fr 3fr 1fr;
     .main-daten-name p{
         font-size: 0.9rem;
     }
-    .main-exchange-container{
-        grid-template-columns: 1fr;
-    }
+    
     .main-knowledge-container{
         margin-left: 50px;    }
 }
