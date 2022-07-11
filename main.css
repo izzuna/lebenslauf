@@ -190,12 +190,14 @@ grid-template-columns: 1fr 3fr 1fr;
 @media  screen and (max-width: 880px) {
 
     .main-daten-profile img{
-        height: 200px;
+        height: 170px;
     }
     .main-daten-name h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .main-daten-name h3{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
 }
+
+@media  screen and (max-width: 880px)
